@@ -30,6 +30,16 @@ export function getContentURL(){
             return url.template.content+"saved.html";
         case "logout":
             return url.template.content+"logout.html";
+        case "get":
+            return url.template.content+"Geo/table.html";
+        case "ch1":
+            return url.template.content+"Geo/chapter1/index.html";
+        case "ch2":
+            return url.template.content+"Geo/chapter2/index.html";
+        case "ch3":
+            return url.template.content+"Geo/chapter3/index.html";
+        case "ch4":
+            return url.template.content+"Geo/chapter4/index.html";
         default:
             return url.template.content+"home.html";
     }
