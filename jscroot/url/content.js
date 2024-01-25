@@ -75,6 +75,16 @@ export function getURLContentJS(){
             return url.view.content+"saved.js";
         case "logout":
             return url.view.content+"logout.js";
+        case "get":
+            return url.template.content+"Geo/table.html";
+        case "ch1":
+            return url.template.content+"Geo/chapter1/index.html";
+        case "ch2":
+            return url.template.content+"Geo/chapter2/index.html";
+        case "ch3":
+            return url.template.content+"Geo/chapter3/index.html";
+        case "ch4":
+            return url.template.content+"Geo/chapter4/index.html";
         default:
             return url.view.content+"home.js";
     }
