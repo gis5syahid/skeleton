@@ -25,7 +25,7 @@ const pointTable = document.getElementById("pointTable").getElementsByTagName('t
 const polygonTable = document.getElementById("polygonTable").getElementsByTagName('tbody')[0];
 const polylineTable = document.getElementById("polylineTable").getElementsByTagName('tbody')[0];
 
-fetch("jscroot/template/content/geojson/ch2/Cimahi.json")
+fetch("jscroot/template/content/Geo/chapter2/Aceh.json")
     .then(response => response.json())
     .then(data => {
         data.features.forEach(feature => {
