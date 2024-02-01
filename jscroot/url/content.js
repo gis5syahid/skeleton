@@ -80,11 +80,11 @@ export function getURLContentJS(){
         case "map/ch1":
             return url.template.content+"Geo/chapter1/app.js";
         case "map/ch2":
-            return url.template.content+"Geo/chapter2/croot.js";
+            return url.template.content+"Geo/chapter2/js/script.js";
         case "map/ch3":
-            return url.template.content+"Geo/chapter3/js/main.js";
+            return url.template.content+"Geo/chapter3/js/script.js";
         case "map/ch4":
-            return url.template.content+"Geo/chapter4/js/main.js";
+            return url.template.content+"Geo/chapter4/js/script.js";
         default:
             return url.view.content+"home.js";
     }

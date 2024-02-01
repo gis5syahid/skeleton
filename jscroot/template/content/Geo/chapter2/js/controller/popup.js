@@ -1,7 +1,7 @@
 import {toLonLat} from 'https://cdn.skypack.dev/ol/proj.js';
 import {toStringHDMS} from 'https://cdn.skypack.dev/ol/coordinate.js';
 import {overlay,map,popupinfo,idmarker} from '../config/peta.js';
-import {clickpopup} from '../template/geocf.js';
+import {clickpopup} from '../template/popup.js';
 import {insertMarker,deleteMarker} from './marker.js';
 import {setInner,textBlur,onClick, getValue,setValue} from 'https://jscroot.github.io/element/croot.js';
 import { postWithToken } from "https://jscroot.github.io/api/croot.js";
@@ -46,11 +46,11 @@ function popupInputMarker(evt) {
     overlay.setPosition(tile);
 }
 
-function popupGetMarker(evt,features) {
-    let title = features.get('name');
+function popupGetMarker(evt,feature) {
+    let title = feature.get('id')+"#"+feature.get('name');
     setInner('popupinfo-title',title);
-    setValue('idmarker',features.get('id'));
-    let ctnt = "type : "+features.getGeometry().getType()+"<br>XY : "+toLonLat(evt.coordinate);
+    setValue('idmarker',feature.get('id'));
+    let ctnt = "volume : "+feature.get('volume')+"<br>XY : "+feature.get('geometry').flatCoordinates;
     setInner('popupinfo-content',ctnt);
     popupinfo.setPosition(evt.coordinate);
 }

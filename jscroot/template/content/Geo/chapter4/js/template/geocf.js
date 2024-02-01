@@ -1,4 +1,4 @@
-export let URLGeoJson = "https://asia-southeast2-msyahid.cloudfunctions.net/GatData";
+export let URLGeoJson = "https://asia-southeast2-msyahid.cloudfunctions.net/GetData";
 export let urlPostGCF = "https://asia-southeast2-msyahid.cloudfunctions.net/InsertData";
 export let tableTag="tr";
 export let tableRowClass="content is-small";
