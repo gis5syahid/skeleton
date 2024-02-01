@@ -30,15 +30,15 @@ export function getContentURL(){
             return url.template.content+"saved.html";
         case "logout":
             return url.template.content+"logout.html";
-        case "get":
+        case "crud/get":
             return url.template.content+"Geo/table.html";
-        case "ch1":
+        case "map/ch1":
             return url.template.content+"Geo/chapter1/index.html";
-        case "ch2":
+        case "map/ch2":
             return url.template.content+"Geo/chapter2/index.html";
-        case "ch3":
+        case "map/ch3":
             return url.template.content+"Geo/chapter3/index.html";
-        case "ch4":
+        case "map/ch4":
             return url.template.content+"Geo/chapter4/index.html";
         default:
             return url.template.content+"home.html";
@@ -75,16 +75,16 @@ export function getURLContentJS(){
             return url.view.content+"saved.js";
         case "logout":
             return url.view.content+"logout.js";
-        case "get":
+        case "crud/get":
             return url.template.content+"Geo/table.html";
-        case "ch1":
+        case "map/ch1":
             return url.template.content+"Geo/chapter1/app.js";
-        case "ch2":
+        case "map/ch2":
             return url.template.content+"Geo/chapter2/croot.js";
-        case "ch3":
-            return url.template.content+"Geo/chapter3/js.main.js";
-        case "ch4":
-            return url.template.content+"Geo/chapter4/js.main.js";
+        case "map/ch3":
+            return url.template.content+"Geo/chapter3/js/main.js";
+        case "map/ch4":
+            return url.template.content+"Geo/chapter4/js/main.js";
         default:
             return url.view.content+"home.js";
     }
