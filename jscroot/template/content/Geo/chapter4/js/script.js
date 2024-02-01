@@ -1,10 +1,10 @@
 import { get } from "https://jscroot.github.io/api/croot.js";
-import { URLGeoJson } from "./template/template.js";
-import { MakeGeojsonFromAPI, responseData, AddLayerToMAP } from "./controller/controller.js";
-import { map } from './config/configpeta.js';
-import { onClosePopupClick, onDeleteMarkerClick, onSubmitMarkerClick, onMapClick, onMapPointerMove, disposePopover } from './controller/popup.js';
-import { onClick } from 'https://jscroot.github.io/element/croot.js';
-import { getAllCoordinates } from './controller/cog.js';
+import { URLGeoJson } from "./template/geocf.js";
+import { MakeGeojsonFromAPI, responseData, AddLayerToMAP, drawer } from "./controller/controller.js";
+import {map} from './config/peta.js';
+import {onClosePopupClick,onDeleteMarkerClick,onSubmitMarkerClick,onMapClick,onMapPointerMove,disposePopover, GetCoorLonLat} from './controller/popup.js';
+import {onClick} from 'https://jscroot.github.io/element/croot.js';
+import {getAllCoordinates} from './controller/cog.js';
 
 export function main() {
     // Event listeners

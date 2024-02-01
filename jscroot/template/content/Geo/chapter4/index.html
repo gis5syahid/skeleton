@@ -1,23 +1,24 @@
-
-    <h1 class="judul" style="text-align: center;">Chapter 4 gcf dan mongoDB</h1>
-    <p>Nama : Muhammad Syahid Al Fajri</p>
-    <p>NPM : 1214008</p>
-    <p>Kelas : D4TI 3A</p>
-    <div id='map'></div>
-    <div class="col-auto mt-4">
-        <span class="input-group">
-            <label class="input-group-text" for="type">Geometry type:</label>
-            <select class="form-select" id="type">
+    <div>
+        <h1 class="judul">GeoGIS Chapter 4</h1>
+        <h2>Nama : Muhammad Syahid Al Fajri</h2>
+        <h2>NPM : 1214008</h2>
+        <h2>Kelas : D4TI 3A</h2>
+        <div id='map' style="width: 80%; height: 400px; margin: 0 auto;""></div>
+        <div class="col-auto">
+            <span class="input-group">
+              <label class="input-group-text" for="type">Geometry type:</label>
+              <select class="form-select" id="type">
                 <option value="Point">Point</option>
                 <option value="LineString">LineString</option>
                 <option value="Polygon">Polygon</option>
                 <option value="Circle">Circle</option>
-                <option value="None">None</option>
-            </select>
-            <input class="form-control" type="button" value="Undo" id="undo">
-        </span>
-    </div>
+                <option value="None" selected>None</option>
+              </select>
+              <input class="form-control" type="button" value="Undo" id="undo">
+            </span>
+          </div>
         <input type="hidden" id="idmarker" name="idmarker" value="">
+    
         <div id="popupinfo" class="ol-popup">
             <b id="popupinfo-title"></b>
             <div id="popupinfo-content"></div>
@@ -41,7 +42,7 @@
         </div>
 <div id="info-table">
     <div class="point-table">
-    <h1>Data Point</h1>
+    <h1>Type Point</h1>
     <table id="pointTable" border="1">
         <thead>
             <tr>
@@ -54,8 +55,22 @@
     </table>
 </div>
 
+<div class="polyline-table">
+    <h1>Type Polyline</h1>
+    <table id="polylineTable" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Coordinate</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody id="line"></tbody>
+    </table>
+</div>
+
 <div class="polygon-table">
-    <h1>Data Polygon</h1>
+    <h1>Type Polygon</h1>
     <table id="polygonTable" border="1">
         <thead>
             <tr>
@@ -68,19 +83,7 @@
     </table>
 </div>
 
-<div class="polyline-table">
-    <h1>Data Polyline</h1>
-    <table id="polylineTable" border="1">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Coordinate</th>
-                <th>Type</th>
-            </tr>
-        </thead>
-        <tbody id="line"></tbody>
-    </table>
-</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js"></script>
-<script type="module" src="./js/main.js"></script>
+        <script src="js/script.js" type="module"></script>
+
