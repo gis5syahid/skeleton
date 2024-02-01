@@ -1,7 +1,8 @@
 import {setInner,addChild } from "https://jscroot.github.io/element/croot.js";
-import {tableTemplate, tableRowClass, tableTag} from "../template/geocf.js";
-import {map} from '../config/peta.js';
+import {tableTemplate, tableRowClass, tableTag} from "../template/template.js";
+import {map} from '../config/configpeta.js';
 import Draw from 'https://cdn.skypack.dev/ol/interaction/Draw.js';
+
 
 export function isiRowPoint(value){
     if (value.geometry.type === "Point") {
@@ -47,7 +48,6 @@ export function MakeGeojsonFromAPI(value) {
 
     return link;
 }
-
 export function drawer(geojson) {
     const source = new ol.source.Vector({
         wrapx: false
@@ -100,6 +100,7 @@ export function drawer(geojson) {
     map.addLayer(Stroke);
 }
 
+
 export function AddLayerToMAP(geojson){ 
     const Sourcedata = new ol.source.Vector({
         url: geojson,
@@ -129,6 +130,8 @@ export function AddLayerToMAP(geojson){
         source: Sourcedata,
         style: function (feature) {
             const featureType = feature.getGeometry().getType();
+            
+           
             if (featureType === 'Polygon') {
                 return new ol.style.Style({
                     stroke: new ol.style.Stroke({
