@@ -6,6 +6,9 @@ import {onClosePopupClick,onDeleteMarkerClick,onSubmitMarkerClick,onMapClick,onM
 import {onClick} from 'https://jscroot.github.io/element/croot.js';
 import {getAllCoordinates} from './controller/cog.js';
 
+
+export function main() {
+
 onClick('popup-closer',onClosePopupClick);
 onClick('insertmarkerbutton',onSubmitMarkerClick);
 onClick('hapusbutton',onDeleteMarkerClick);
@@ -23,3 +26,7 @@ get(URLGeoJson,data => {
     AddLayerToMAP(link)
     drawer(link)
 }); 
+
+}
+
+main();

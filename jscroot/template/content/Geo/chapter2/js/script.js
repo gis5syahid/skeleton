@@ -41,9 +41,9 @@ fetch("jscroot/template/content/Geo/chapter2/Aceh.json")
     .catch(error => console.error("Terjadi kesalahan:", error));;
 
 // Definisikan URL GeoJSON untuk masing-masing jenis fitur
-const polygonGeoJSONUrl = 'jscroot/template/content/geojson/ch2/Aceh.json';
-const lineStringGeoJSONUrl = 'jscroot/template/content/geojson/ch2/Aceh.json';
-const pointGeoJSONUrl = 'jscroot/template/content/geojson/ch2/Aceh.json';
+const polygonGeoJSONUrl = 'jscroot/template/content/Geo/chapter2/Aceh.json';
+const lineStringGeoJSONUrl = 'jscroot/template/content/Geo/chapter2/Aceh.json';
+const pointGeoJSONUrl = 'jscroot/template/content/Geo/chapter2/Aceh.json';
 
 // Buat sumber vektor dan lapisan vektor untuk masing-masing jenis fitur
 const polygonSource = new VectorSource({
