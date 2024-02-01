@@ -7,14 +7,16 @@ import {fromLonLat} from 'https://cdn.skypack.dev/ol/proj.js';
 import Overlay from 'https://cdn.skypack.dev/ol/Overlay.js';
 import {container} from 'https://jscroot.github.io/element/croot.js';
 
-const attributions = '';
+const attributions = '<a href="https://petapedia.github.io/" target="_blank">&copy; PetaPedia Indonesia</a> ';
 
-const place = [107.54180787870939, -6.873533406322835];
+const place = [95.31757807226461,5.567512542376633];
 
 export let idmarker = {id:1};
 
 const basemap = new TileLayer({
-  source: new OSM({attributions: attributions,}),
+    source: new OSM({
+        attributions: attributions,
+      }),
 });
 
 const defaultstartmap = new View({
@@ -41,11 +43,11 @@ export const popupinfo = new Overlay({
 });
 
 export let map = new Map({
+  layers: [
+        basemap
+    ],
   overlays: [overlay,popupinfo],
   target: 'map',
-  layers: [
-    basemap
-  ],
   view: defaultstartmap,
 });
 

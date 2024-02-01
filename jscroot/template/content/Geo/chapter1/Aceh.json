@@ -4,7 +4,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Penang Swalayan",
+          "name": "Penang Swalayan",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -19,7 +19,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Mutiara Jaya Furniture",
+          "name": "Mutiara Jaya Furniture",
           
           "daerah ": "Banda Aceh"
         },
@@ -35,7 +35,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Terminal APK Keudah",
+          "name": "Terminal APK Keudah",
           
           "daerah ": "Banda Aceh"
         },
@@ -51,7 +51,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Rumah Sakit Umum Cut Meutia",
+          "name": "Rumah Sakit Umum Cut Meutia",
           
           "daerah ": "Banda Aceh"
         },
@@ -67,7 +67,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Kuil Palani Andawer",
+          "name": "Kuil Palani Andawer",
           
           "daerah ": "Banda Aceh"
         },
@@ -83,7 +83,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "King GYM",
+          "name": "King GYM",
           
           "daerah ": "Banda Aceh"
         },
@@ -99,7 +99,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Anita Service",
+          "name": "Anita Service",
           
           "daerah ": "Banda Aceh"
         },
@@ -115,7 +115,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "OYO",
+          "name": "OYO",
           
           "daerah ": "Banda Aceh"
         },
@@ -131,7 +131,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Baitul Mal Banda Aceh",
+          "name": "Baitul Mal Banda Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -147,7 +147,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Bank Indonesia",
+          "name": "Bank Indonesia",
           
           "daerah ": "Banda Aceh"
         },
@@ -163,7 +163,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Masjid Tuha",
+          "name": "Masjid Tuha",
           
           "daerah ": "Banda Aceh"
         },
@@ -179,7 +179,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Amin Hoss",
+          "name": "Amin Hoss",
           
           "daerah ": "Banda Aceh"
         },
@@ -195,7 +195,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Bidan Dian",
+          "name": "Bidan Dian",
           
           "daerah ": "Banda Aceh"
         },
@@ -211,7 +211,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Mesjid Taman Dianjong",
+          "name": "Mesjid Taman Dianjong",
           
           "daerah ": "Banda Aceh"
         },
@@ -227,7 +227,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Masjid BANI SALIM",
+          "name": "Masjid BANI SALIM",
           
           "daerah ": "Banda Aceh"
         },
@@ -243,7 +243,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Kantor PLN Area Banda Aceh",
+          "name": "Kantor PLN Area Banda Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -259,7 +259,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Bank BNI",
+          "name": "Bank BNI",
           
           "daerah ": "Banda Aceh"
         },
@@ -275,7 +275,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "POLSEK Kutaraja",
+          "name": "POLSEK Kutaraja",
           
           "daerah ": "Banda Aceh"
         },
@@ -291,7 +291,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Hotel Wisata",
+          "name": "Hotel Wisata",
           
           "daerah ": "Banda Aceh"
         },
@@ -307,7 +307,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Hotel Prapat",
+          "name": "Hotel Prapat",
           
           "daerah ": "Banda Aceh"
         },
@@ -323,7 +323,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Hotel Medan",
+          "name": "Hotel Medan",
           
           "daerah ": "Banda Aceh"
         },
@@ -339,7 +339,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Pasar Malam",
+          "name": "Pasar Malam",
           
           "daerah ": "Banda Aceh"
         },
@@ -355,7 +355,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "SYR Coffe",
+          "name": "SYR Coffe",
           
           "daerah ": "Banda Aceh"
         },
@@ -371,7 +371,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Nasi Uduk",
+          "name": "Nasi Uduk",
           
           "daerah ": "Banda Aceh"
         },
@@ -387,7 +387,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Bakso Canberra",
+          "name": "Bakso Canberra",
           
           "daerah ": "Banda Aceh"
         },
@@ -403,7 +403,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Food Stalls",
+          "name": "Food Stalls",
           
           "daerah ": "Banda Aceh"
         },
@@ -419,7 +419,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Paknek Kupi",
+          "name": "Paknek Kupi",
           
           "daerah ": "Banda Aceh"
         },
@@ -435,7 +435,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Siwah Hotel",
+          "name": "Siwah Hotel",
           
           "daerah ": "Banda Aceh"
         },
@@ -451,7 +451,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Mie Rajali",
+          "name": "Mie Rajali",
           
           "daerah ": "Banda Aceh"
         },
@@ -467,7 +467,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Hotel Aceh Barat",
+          "name": "Hotel Aceh Barat",
           
           "daerah ": "Banda Aceh"
         },
@@ -483,7 +483,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Apotek Berkat",
+          "name": "Apotek Berkat",
           
           "daerah ": "Banda Aceh"
         },
@@ -499,7 +499,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Pasar Aceh",
+          "name": "Pasar Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -515,7 +515,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "juice kedai",
+          "name": "juice kedai",
           
           "daerah ": "Banda Aceh"
         },
@@ -531,7 +531,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Market",
+          "name": "Market",
           
           "daerah ": "Banda Aceh"
         },
@@ -547,7 +547,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Pasar",
+          "name": "Pasar",
           
           "daerah ": "Banda Aceh"
         },
@@ -563,7 +563,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Hotel 61",
+          "name": "Hotel 61",
           
           "daerah ": "Banda Aceh"
         },
@@ -579,7 +579,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Zuhra Sembako",
+          "name": "Zuhra Sembako",
           
           "daerah ": "Banda Aceh"
         },
@@ -595,7 +595,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Idola Mart",
+          "name": "Idola Mart",
           
           "daerah ": "Banda Aceh"
         },
@@ -611,7 +611,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "SD NEGERI 1",
+          "name": "SD NEGERI 1",
           
           "daerah ": "Banda Aceh"
         },
@@ -627,7 +627,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "SMAN 1 Banda Aceh",
+          "name": "SMAN 1 Banda Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -644,7 +644,7 @@
         "type": "Feature",
         "properties": {
           
-          "Point": "PAUD-TK-MI",
+          "name": "PAUD-TK-MI",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -659,7 +659,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Blang Padang",
+          "name": "Blang Padang",
           
           "daerah ": "Banda Aceh"
         },
@@ -675,7 +675,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Pavilliun Seulawah",
+          "name": "Pavilliun Seulawah",
           
           "daerah ": "Banda Aceh"
         },
@@ -691,7 +691,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Taspen",
+          "name": "Taspen",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -706,7 +706,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Yayasan Budi Darma",
+          "name": "Yayasan Budi Darma",
           
           "daerah ": "Banda Aceh"
         },
@@ -722,7 +722,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Museum Tsunami Aceh",
+          "name": "Museum Tsunami Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -738,7 +738,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "SPBU Simpang Jam",
+          "name": "SPBU Simpang Jam",
           
           "daerah ": "Banda Aceh"
         },
@@ -754,7 +754,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Taman Bustanussalatin",
+          "name": "Taman Bustanussalatin",
           
           "daerah ": "Banda Aceh"
         },
@@ -770,7 +770,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Banda Fitness",
+          "name": "Banda Fitness",
           
           "daerah ": "Banda Aceh"
         },
@@ -786,7 +786,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Point": "Wisma Teuku Umar",
+          "name": "Wisma Teuku Umar",
           
           "daerah ": "Banda Aceh"
         },
@@ -803,7 +803,7 @@
         "type": "Feature",
         "properties": {
           
-          "Alamat": "Idola Mart",
+          "name": "Idola Mart",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -838,7 +838,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Zuhra Sembako",
+          "name": "Zuhra Sembako",
           
           "daerah ": "Banda Aceh"
         },
@@ -874,7 +874,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Mesjid Taman Dianjong",
+          "name": "Mesjid Taman Dianjong",
           
           "daerah ": "Banda Aceh"
         },
@@ -911,7 +911,7 @@
         "type": "Feature",
         "properties": {
           
-          "Alamat": "Bidan Dian",
+          "name": "Bidan Dian",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -946,7 +946,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Masjid BANI SALIM",
+          "name": "Masjid BANI SALIM",
           
           "daerah ": "Banda Aceh"
         },
@@ -982,7 +982,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Masjid",
+          "name": "Masjid",
           
           "daerah ": "Banda Aceh"
         },
@@ -1018,7 +1018,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Amin Hoss",
+          "name": "Amin Hoss",
           
           "daerah ": "Banda Aceh"
         },
@@ -1062,7 +1062,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Kantor PLN Are",
+          "name": "Kantor PLN Are",
           
           "daerah ": "Banda Aceh"
         },
@@ -1098,7 +1098,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Penang Swalayan",
+          "name": "Penang Swalayan",
           
           "daerah ": "Banda Aceh"
         },
@@ -1134,7 +1134,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Mutiara Jaya Furniture",
+          "name": "Mutiara Jaya Furniture",
           
           "daerah ": "Banda Aceh"
         },
@@ -1198,7 +1198,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Baitul Mal Banda Aceh",
+          "name": "Baitul Mal Banda Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -1234,7 +1234,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "King GYM",
+          "name": "King GYM",
           
           "daerah ": "Banda Aceh"
         },
@@ -1270,7 +1270,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "OYO",
+          "name": "OYO",
           
           "daerah ": "Banda Aceh"
         },
@@ -1330,7 +1330,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Kuil Palani Andawe",
+          "name": "Kuil Palani Andawe",
           
           "daerah ": "Banda Aceh"
         },
@@ -1374,8 +1374,8 @@
       {
         "type": "Feature",
         "properties": {
-          " Alamat": "",
-          "Alamat": "Anita Service",
+          " name": "",
+          "name": "Anita Service",
           
           "daerah ": "Banda Aceh"
         },
@@ -1411,7 +1411,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Terminal APK Keudah",
+          "name": "Terminal APK Keudah",
           
           "daerah ": "Banda Aceh"
         },
@@ -1447,7 +1447,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Rumah Sakit Umum",
+          "name": "Rumah Sakit Umum",
           
           "daerah ": "Banda Aceh"
         },
@@ -1483,7 +1483,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Bank Indonesia",
+          "name": "Bank Indonesia",
           
           "daerah ": "Banda Aceh"
         },
@@ -1535,7 +1535,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "POLSEK Kutaraja",
+          "name": "POLSEK Kutaraja",
           
           "daerah ": "Banda Aceh"
         },
@@ -1587,7 +1587,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Bank BNI",
+          "name": "Bank BNI",
           
           "daerah ": "Banda Aceh"
         },
@@ -1623,7 +1623,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "PAUD-TK-MI",
+          "name": "PAUD-TK-MI",
           "stroke": "",
           "stroke-width": 2,
           "stroke-opacity": 1,
@@ -1672,7 +1672,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "SD Negeri 1",
+          "name": "SD Negeri 1",
           
           "daerah ": "Banda Aceh"
         },
@@ -1716,7 +1716,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "SMAN 1 Bandar Aceh",
+          "name": "SMAN 1 Bandar Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -1752,7 +1752,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Pavilliun Seulawan",
+          "name": "Pavilliun Seulawan",
           
           "daerah ": "Banda Aceh"
         },
@@ -1788,7 +1788,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Blang Padang",
+          "name": "Blang Padang",
           
           "daerah ": "Banda Aceh"
         },
@@ -1824,7 +1824,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Wisma Teuku Umar",
+          "name": "Wisma Teuku Umar",
           
           "daerah ": "Banda Aceh"
         },
@@ -1860,7 +1860,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Yayasan Budi Darma",
+          "name": "Yayasan Budi Darma",
           
           "daerah ": "Banda Aceh"
         },
@@ -1896,7 +1896,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Museum Tsunami Aceh",
+          "name": "Museum Tsunami Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -1936,7 +1936,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "SPBU Simpang Jam",
+          "name": "SPBU Simpang Jam",
           
           "daerah ": "Banda Aceh"
         },
@@ -1972,7 +1972,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Banda Fitness",
+          "name": "Banda Fitness",
           
           "daerah ": "Banda Aceh"
         },
@@ -2028,7 +2028,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Taman Bustanussalatin",
+          "name": "Taman Bustanussalatin",
           
           "daerah ": "Banda Aceh"
         },
@@ -2064,7 +2064,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Taspen",
+          "name": "Taspen",
           
           "daerah ": "Banda Aceh"
         },
@@ -2124,7 +2124,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Hotel 61",
+          "name": "Hotel 61",
           
           "daerah ": "Banda Aceh"
         },
@@ -2164,7 +2164,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Apotek Berkat",
+          "name": "Apotek Berkat",
           
           "daerah ": "Banda Aceh"
         },
@@ -2200,7 +2200,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Hotel Aceh Barat",
+          "name": "Hotel Aceh Barat",
           
           "daerah ": "Banda Aceh"
         },
@@ -2236,7 +2236,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Siwan Hotel",
+          "name": "Siwan Hotel",
           
           "daerah ": "Banda Aceh"
         },
@@ -2272,7 +2272,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Mie Razali",
+          "name": "Mie Razali",
           
           "daerah ": "Banda Aceh"
         },
@@ -2308,7 +2308,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Market",
+          "name": "Market",
           
           "daerah ": "Banda Aceh"
         },
@@ -2344,7 +2344,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Pasar",
+          "name": "Pasar",
           
           "daerah ": "Banda Aceh"
         },
@@ -2380,7 +2380,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Paknek Kupi",
+          "name": "Paknek Kupi",
           
           "daerah ": "Banda Aceh"
         },
@@ -2416,7 +2416,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Nasi Uduk",
+          "name": "Nasi Uduk",
           
           "daerah ": "Banda Aceh"
         },
@@ -2451,7 +2451,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Bakso Canberra",
+          "name": "Bakso Canberra",
           
           "daerah ": "Banda Aceh"
         },
@@ -2487,7 +2487,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Food Stalls",
+          "name": "Food Stalls",
           
           "daerah ": "Banda Aceh"
         },
@@ -2523,7 +2523,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "SYR Coffe",
+          "name": "SYR Coffe",
           
           "daerah ": "Banda Aceh"
         },
@@ -2559,7 +2559,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Pasar Malam",
+          "name": "Pasar Malam",
           
           "daerah ": "Banda Aceh"
         },
@@ -2595,7 +2595,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Hotel Wisata",
+          "name": "Hotel Wisata",
           
           "daerah ": "Banda Aceh"
         },
@@ -2631,7 +2631,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Hotel Prapat",
+          "name": "Hotel Prapat",
           
           "daerah ": "Banda Aceh"
         },
@@ -2671,7 +2671,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Hotel Medan",
+          "name": "Hotel Medan",
           
           "daerah ": "Banda Aceh"
         },
@@ -2715,7 +2715,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "juice kedai",
+          "name": "juice kedai",
           
           "daerah ": "Banda Aceh"
         },
@@ -2751,7 +2751,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Alamat": "Pasar Aceh",
+          "name": "Pasar Aceh",
           
           "daerah ": "Banda Aceh"
         },
@@ -2787,7 +2787,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Tepi Sungai",
+          "name": "Jalan Tepi Sungai",
           
           "daerah ": "Banda Aceh"
         },
@@ -2853,7 +2853,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Diponegoro",
+          "name": "Jalan Diponegoro",
           
           "daerah ": "Banda Aceh"
         },
@@ -2883,7 +2883,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Cut Meutia",
+          "name": "Jalan Cut Meutia",
           
           "daerah ": "Banda Aceh"
         },
@@ -2950,7 +2950,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan W.R Supratman",
+          "name": "Jalan W.R Supratman",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -2979,7 +2979,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan K.H Ahmad Dahlan",
+          "name": "Jalan K.H Ahmad Dahlan",
           
           "daerah ": "Banda Aceh"
         },
@@ -3025,7 +3025,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan K.H Ahmad Dahlan",
+          "name": "Jalan K.H Ahmad Dahlan",
           
           "daerah ": "Banda Aceh"
         },
@@ -3080,7 +3080,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Diponegoro",
+          "name": "Jalan Diponegoro",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3162,7 +3162,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan H.DirmurthataKota Alam",
+          "name": "Jalan H.DirmurthataKota Alam",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3214,7 +3214,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Angkasa",
+          "name": "Jalan Angkasa",
           
           "daerah ": "Banda Aceh"
         },
@@ -3256,7 +3256,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Tanggul",
+          "name": "Jalan Tanggul",
           
           "daerah ": "Banda Aceh"
         },
@@ -3298,7 +3298,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Tanggul Atas",
+          "name": "Jalan Tanggul Atas",
           
           "daerah ": "Banda Aceh"
         },
@@ -3376,7 +3376,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Tanggul Bawan",
+          "name": "Jalan Tanggul Bawan",
           
           "daerah ": "Banda Aceh"
         },
@@ -3454,7 +3454,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Mayjen T, Hamzah Bendahara",
+          "name": "Jalan Mayjen T, Hamzah Bendahara",
           
           "daerah ": "Banda Aceh"
         },
@@ -3532,7 +3532,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Mayjen Hamzah",
+          "name": "Jalan Mayjen Hamzah",
           
           "daerah ": "Banda Aceh"
         },
@@ -3553,7 +3553,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Rama Setia",
+          "name": "Jalan Rama Setia",
           
           "daerah ": "Banda Aceh"
         },
@@ -3582,7 +3582,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan K.H Ahmad Dahlan",
+          "name": "Jalan K.H Ahmad Dahlan",
           
           "daerah ": "Banda Aceh"
         },
@@ -3609,7 +3609,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Mohammad Jam",
+          "name": "Jalan Mohammad Jam",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3655,7 +3655,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Mohammad Jam",
+          "name": "Jalan Mohammad Jam",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3681,7 +3681,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Cemara",
+          "name": "Jalan Cemara",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3702,7 +3702,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Bonjol",
+          "name": "Jalan Bonjol",
           
           "daerah ": "Banda Aceh"
         },
@@ -3724,7 +3724,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Teungku syiah muda",
+          "name": "Jalan Teungku syiah muda",
           
           "daerah ": "Banda Aceh"
         },
@@ -3746,7 +3746,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Sri Ratu Sahatuddin",
+          "name": "Jalan Sri Ratu Sahatuddin",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3783,7 +3783,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Ahmad Yani",
+          "name": "Jalan Ahmad Yani",
           
           "daerah ": "Banda Aceh"
         },
@@ -3817,7 +3817,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Ahmad",
+          "name": "Jalan Ahmad",
           
           "daerah ": "Banda Aceh"
         },
@@ -3839,7 +3839,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Ahmad Yani",
+          "name": "Jalan Ahmad Yani",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3873,7 +3873,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Al Huda",
+          "name": "Jalan Al Huda",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3894,7 +3894,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Letnan",
+          "name": "Jalan Letnan",
           
           "daerah ": "Banda Aceh"
         },
@@ -3915,7 +3915,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Teladan",
+          "name": "Jalan Teladan",
           
           "daerah ": "Banda Aceh"
         },
@@ -3942,7 +3942,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Tongkol",
+          "name": "Jalan Tongkol",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3964,7 +3964,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "jalan Perdamaian",
+          "name": "jalan Perdamaian",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -3985,7 +3985,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Mangga",
+          "name": "Jalan Mangga",
           
           "daerah ": "Banda Aceh"
         },
@@ -4007,7 +4007,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Durian",
+          "name": "Jalan Durian",
           
           "daerah ": "Banda Aceh"
         },
@@ -4029,7 +4029,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Pendaya",
+          "name": "Jalan Pendaya",
           
           "daerah ": "Banda Aceh"
         },
@@ -4051,7 +4051,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Sentosa",
+          "name": "Jalan Sentosa",
           
           "daerah ": "Banda Aceh"
         },
@@ -4073,7 +4073,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Kasuari",
+          "name": "Jalan Kasuari",
           
           "daerah ": "Banda Aceh"
         },
@@ -4095,7 +4095,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Merpati",
+          "name": "Jalan Merpati",
           
           "daerah ": "Banda Aceh"
         },
@@ -4117,7 +4117,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalam Merpati",
+          "name": "Jalam Merpati",
           
           "daerah ": "Banda Aceh"
         },
@@ -4138,7 +4138,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Darma",
+          "name": "Jalan Darma",
           
           "daerah ": "Banda Aceh"
         },
@@ -4160,7 +4160,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Setia",
+          "name": "Jalan Setia",
           
           "daerah ": "Banda Aceh"
         },
@@ -4182,7 +4182,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Pelangi",
+          "name": "Jalan Pelangi",
           
           "daerah ": "Banda Aceh"
         },
@@ -4204,7 +4204,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Suri",
+          "name": "Jalan Suri",
           
           "daerah ": "Banda Aceh"
         },
@@ -4226,7 +4226,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Pati",
+          "name": "Jalan Pati",
           
           "daerah ": "Banda Aceh"
         },
@@ -4248,7 +4248,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Laksnamana",
+          "name": "Jalan Laksnamana",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -4270,7 +4270,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Kuta Karang",
+          "name": "Jalan Kuta Karang",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -4291,7 +4291,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Malem Muda",
+          "name": "Jalan Malem Muda",
           
           "daerah ": "Banda Aceh"
         },
@@ -4313,7 +4313,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalam Malem Tua",
+          "name": "Jalam Malem Tua",
           
           "daerah ": "Banda Aceh"
         },
@@ -4335,7 +4335,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Al Ikhlas",
+          "name": "Jalan Al Ikhlas",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -4357,7 +4357,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Gang Taqwa",
+          "name": "Gang Taqwa",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
@@ -4378,7 +4378,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Rawa Sakti",
+          "name": "Jalan Rawa Sakti",
           
           "daerah ": "Banda Aceh"
         },
@@ -4400,7 +4400,7 @@
       {
         "type": "Feature",
         "properties": {
-          "Jalan": "Jalan Rawa Sakti",
+          "name": "Jalan Rawa Sakti",
           
           "daerah ": "Banda Aceh"
         },
@@ -4422,7 +4422,7 @@
         "type": "Feature",
         "properties": {
           
-          "Jalan": "Jalan Hasyim Banta Muda",
+          "name": "Jalan Hasyim Banta Muda",
           "daerah ": "Banda Aceh"
         },
         "geometry": {
