@@ -78,13 +78,13 @@ export function getURLContentJS(){
         case "get":
             return url.template.content+"Geo/table.html";
         case "ch1":
-            return url.template.content+"Geo/chapter1/index.html";
+            return url.template.content+"Geo/chapter1/app.js";
         case "ch2":
-            return url.template.content+"Geo/chapter2/index.html";
+            return url.template.content+"Geo/chapter2/croot.js";
         case "ch3":
-            return url.template.content+"Geo/chapter3/index.html";
+            return url.template.content+"Geo/chapter3/js.main.js";
         case "ch4":
-            return url.template.content+"Geo/chapter4/index.html";
+            return url.template.content+"Geo/chapter4/js.main.js";
         default:
             return url.view.content+"home.js";
     }
