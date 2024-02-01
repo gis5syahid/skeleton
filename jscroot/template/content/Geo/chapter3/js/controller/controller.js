@@ -1,7 +1,7 @@
 import { setInner, addChild } from "https://jscroot.github.io/element/croot.js";
 import { tableTemplate, tableRowClass, tableTag } from "../template/geocf.js";
 import { map } from '../config/peta.js';
-import ol from 'ol';  // Import OpenLayers library
+import ol from 'https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js';  // Import OpenLayers library
 
 export function isiRowPoint(value) {
     if (value.geometry.type === "Point") {
