@@ -32,7 +32,7 @@ tags:
       description: Deskripsi dan Kode Program
       url: https://github.com/MSyahidAlFajri/backendgcp
 paths:
-  /Login:
+  /LoginGeo:
     post:
       tags:
         - auth
