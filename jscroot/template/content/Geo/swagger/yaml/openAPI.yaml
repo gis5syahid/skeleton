@@ -1,0 +1,282 @@
+openapi: 3.0.3
+info:
+  title: Dokumen API Cloud Function GIS M Syahid - OpenAPI 3.0
+  description: >-
+    Dokumentasi API Matakuliah GIS
+  termsOfService: https://github.com/gis5syahid
+  contact:
+    email: masyahida4@gmail.com
+  license:
+    name: Backend Package
+    url: https://pkg.go.dev/github.com/MSyahidAlFajri/backendgcp
+  version: 1.0.11
+externalDocs:
+  description: Swagger
+  url: https://gis5syahid.github.io/
+servers:
+  - url: https://asia-southeast2-msyahid.cloudfunctions.net
+tags:
+  - name: auth
+    description: Authentikasi
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://github.com/MSyahidAlFajri/backendgcp
+  - name: register
+    description: Data Untuk akses GIS
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://github.com/MSyahidAlFajri/backendgcp
+  - name: data
+    description: Data Untuk akses GIS
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://github.com/MSyahidAlFajri/backendgcp
+paths:
+  /Login:
+    post:
+      tags:
+        - auth
+      summary: Login get Token
+      description: Login and Get User Token
+      operationId: authService
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Auth'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '405':
+          description: Invalid input
+  /RegisterGeo:
+    post:
+      tags:
+        - register
+      summary: Register User
+      description: Daftar Akun User
+      operationId: authService
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+        '405':
+          description: Invalid input
+  /GetDataGeo:
+    get:
+      tags:
+        - data
+      summary: Get Data Geojson
+      description: Header auth 
+      operationId: GetdataGeojson
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/responseData'
+        '400':
+          description: Invalid status value
+      security:
+        - Login:
+          - write:apiKey
+          - read:apiKey
+  /UpdateDataGeo:
+    put:
+      tags:
+        - data
+      summary: Update Data Geo
+      description: Update data nama by volume 
+      operationId: authService
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/bodycord'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseUpdate'
+        '405':
+          description: Invalid input          
+      security:
+        - Login:
+          - write:apiKey
+          - read:apiKey
+
+  /DeleteDataGeo:
+    delete:
+      tags:
+        - data
+      summary: Delete Data Geo
+      description: Delete Data Geo by nama
+      operationId: DeleteData
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReqData'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Data'
+        '400':
+          description: Invalid status value
+      security:
+        - Login:
+          - write:apiKey
+          - read:apiKey
+components:
+  schemas:
+    user:
+      type: object
+      properties:
+        username:
+          type: string
+          example : syahid
+        password:
+          type: string
+          example: kepo
+    ResponseUpdate:
+      type: object
+      properties:
+        status:
+          type: bool
+          example: true
+        message:
+          type: string
+          example: Berhasil Update Data
+    Auth:
+      type: object
+      properties:
+        username:
+          type: string
+          example: syahid
+        password:
+          type: string
+          example: kepo
+    bodycord:
+      type: object
+      properties:
+        type:
+          type: string
+          example: Point
+        name:
+          type: string
+          example: syahid 
+        volume:
+          type: string
+          example: uhuy
+    AuthResponse:
+      type: object
+      properties:
+        status:
+          type: bool
+          example: true
+        token:
+          type: string
+          example: anjass
+        message:
+          type: string
+          example: Selamat Datang
+    responseData:
+      type: object
+      properties:
+        type:
+          type: string
+        geometry:
+          type: object
+          properties:
+            type: 
+              type: string
+            coordinates: 
+              type: array
+        properties:
+          type: object
+          properties:
+            name:
+              type: string
+    Response:
+      type: object
+      properties:
+        status:
+          type: bool
+          example: true
+        message:
+          type: string
+          example: Berhasil Input data
+    ReqData:
+      type: object
+      properties:
+        type:
+          type: string
+          example: Point
+        name:
+          type: string
+          example: syahid 
+        volume:
+          type: string
+          example: uhuyy
+
+    Data:
+      type: object
+      properties:
+        status:
+          type: bool
+          example: true
+        message:
+          type: string
+          example: "Berhasil menghapus data. Jumlah data terhapus:"
+  requestBodies:
+    AuthReq:
+      description: Request Authentication
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Auth'
+    UserArray:
+      description: List of user object
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/AuthResponse'
+    DataArray:
+      description: List of user object
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/AuthResponse'
+  securitySchemes:
+    Login:
+      type: apiKey
+      name: Login
+      in: header
+
+      

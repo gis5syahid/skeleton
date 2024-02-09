@@ -13,10 +13,9 @@ addCSS("https://unpkg.com/bulma@0.9.4/css/bulma.min.css");
 addCSS("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 addCSS("https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css");
 addCSS("assets/css/styles.css");
+addCSS("assets/css/openlayers.css");
 
 //rendering HTML
 insertHTML(url.template.header,id.header,runAfterHeader);
 insertHTML(getContentURL(),id.content,runAfterContent);
 onHashChange(runAfterHashChange);
-
-

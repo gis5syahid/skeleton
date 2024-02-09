@@ -30,15 +30,17 @@ export function getContentURL(){
             return url.template.content+"saved.html";
         case "logout":
             return url.template.content+"logout.html";
-        case "crud/get":
-            return url.template.content+"Geo/table.html";
-        case "map/ch1":
+        case "ch1":
             return url.template.content+"Geo/chapter1/index.html";
-        case "map/ch2":
+        case "map":
+            return url.template.content+"map.html";
+        case "swagger":
+            return url.template.content+"Geo/swagger/index.html";
+        case "ch2":
             return url.template.content+"Geo/chapter2/index.html";
-        case "map/ch3":
+        case "ch3":
             return url.template.content+"Geo/chapter3/index.html";
-        case "map/ch4":
+        case "ch4":
             return url.template.content+"Geo/chapter4/index.html";
         default:
             return url.template.content+"home.html";
@@ -75,16 +77,18 @@ export function getURLContentJS(){
             return url.view.content+"saved.js";
         case "logout":
             return url.view.content+"logout.js";
-        case "crud/get":
-            return url.template.content+"Geo/table.html";
-        case "map/ch1":
+        case "map":
+            return url.view.content+"map.js";
+        case "ch1":
             return url.template.content+"Geo/chapter1/app.js";
-        case "map/ch2":
+        case "ch2":
             return url.template.content+"Geo/chapter2/js/script.js";
-        case "map/ch3":
-            return url.template.content+"Geo/chapter3/js/script.js";
-        case "map/ch4":
-            return url.template.content+"Geo/chapter4/js/script.js";
+        case "ch3":
+            return url.template.content+"Geo/chapter3/js/map.js";
+        case "ch4":
+            return url.template.content+"Geo/chapter4/js/map.js";
+        case "swagger":
+            return url.template.content+"Geo/swagger/js/swagger.js";
         default:
             return url.view.content+"home.js";
     }
