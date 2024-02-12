@@ -195,10 +195,6 @@ export function popupInputMarker(evt, type, geospatial, coordinates) {
                 const response = await fetch(qqq, {
                     method: 'POST',
                     body: JSON.stringify(datageospatial), // Send the data object, not individual variables
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': token
-                    }
                 })
     
                 const responseData = await response.json();
@@ -246,10 +242,6 @@ export function popupInputMarker(evt, type, geospatial, coordinates) {
                 const response = await fetch(www, {
                     method: 'POST',
                     body: JSON.stringify(datageospatial), // Send the data object, not individual variables
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': token
-                    }
                 })
     
                 const responseData = await response.json()
@@ -297,10 +289,6 @@ export function popupInputMarker(evt, type, geospatial, coordinates) {
                 const response = await fetch(eee, {
                     method: 'POST',
                     body: JSON.stringify(datageospatial), // Send the data object, not individual variables
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': token
-                    }
                 })
     
                 const responseData = await response.json();
@@ -348,10 +336,6 @@ export function popupInputMarker(evt, type, geospatial, coordinates) {
                 const response = await fetch(rrr, {
                     method: 'POST',
                     body: JSON.stringify(datageospatial), // Send the data object, not individual variables
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': token
-                    }
                 })
     
                 const responseData = await response.json();
@@ -399,10 +383,6 @@ export function popupInputMarker(evt, type, geospatial, coordinates) {
                 const response = await fetch(ttt, {
                     method: 'POST',
                     body: JSON.stringify(datageospatial), // Send the data object, not individual variables
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': token
-                    }
                 })
     
                 const responseData = await response.json();
@@ -450,10 +430,6 @@ export function popupInputMarker(evt, type, geospatial, coordinates) {
                 const response = await fetch(yyy, {
                     method: 'POST',
                     body: JSON.stringify(datageospatial), // Send the data object, not individual variables
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': token
-                    }
                 })
     
                 const responseData = await response.json();
